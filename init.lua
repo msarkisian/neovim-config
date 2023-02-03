@@ -69,6 +69,14 @@ require('packer').startup(function(use)
     end
   }
 
+  -- reticle.nvim (restrict cursorline to active window)
+  use {
+    'Tummetott/reticle.nvim',
+    config = function()
+      require('reticle').setup()
+    end
+  }
+
   -- Cellular Automation buffer plugin
   use 'eandrju/cellular-automaton.nvim'
 
