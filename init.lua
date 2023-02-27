@@ -141,6 +141,9 @@ vim.wo.signcolumn = 'yes'
 -- Enable cursorline
 vim.o.cursorline = true
 
+-- Display tabs with 2 spaces' width
+vim.o.tabstop = 2
+
 -- Set colorscheme
 vim.o.termguicolors = true
 vim.cmd [[colorscheme onedark]]
